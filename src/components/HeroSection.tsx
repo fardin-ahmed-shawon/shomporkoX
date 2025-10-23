@@ -39,7 +39,7 @@ const HeroSection = () => {
               </Button>
               <Button variant="outline" size="lg" className="group animate-scale-up border-2 hover:border-primary" style={{ animationDelay: "300ms" }}>
                 <Play className="mr-2 group-hover:scale-125 transition-all duration-300 fill-current" />
-              <a href="">  Watch Demo</a>
+              <a href="https://easytechsolutions.xyz/easy_data/easy_lead_management/login.php">  Watch Demo</a>
               </Button>
             </div>
 

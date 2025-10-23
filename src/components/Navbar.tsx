@@ -43,7 +43,7 @@ const Navbar = () => {
             Sign In
           </Button>
           <Button variant="hero" size="sm">
-            Get Demo
+            <a href="https://easytechsolutions.xyz/easy_data/easy_lead_management/login.php" target="_blank">Get Demo</a>
           </Button>
         </div>
       </div>
