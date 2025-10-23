@@ -34,7 +34,7 @@ const CTASection = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-2 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground hover:border-primary-foreground/40 hover:scale-105 transition-all duration-300 px-8 py-6 text-lg font-semibold"
+                className="border-2 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground hover:border-primary-foreground/40 hover:scale-105 transition-all duration-300 px-8 py-6 text-lg font-semibold text-dark"
               >
                 <a href="https://wa.me/8801580741616" target="_blank"> Schedule Demo</a>
               </Button>
