@@ -28,7 +28,7 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed font-light">
-              EASY CRM streamlines your entire business operations - from leads and projects to payments and team management. Experience the all-in-one solution that grows with you.
+              ShomporkoX is a CRM solution that streamlines your entire business operations - from leads and projects to payments and team management. Experience the all-in-one solution that grows with you.
             </p>
 
             <div className="flex flex-wrap gap-4">
