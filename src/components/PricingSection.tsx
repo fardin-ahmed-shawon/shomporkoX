@@ -6,50 +6,51 @@ const plans = [
     name: "Starter",
     price: "499 BDT",
     period: "/month",
-    description: "Perfect for small teams getting started",
+    description: "Perfect for small teams or startups just getting started.",
     features: [
-      "Up to 5 users",
-      "100 leads/month",
-      "Basic reporting",
-      "Email support",
-      "5 GB storage"
-      
+      " Up to 4 users",
+      " 100 leads/month",
+      " Basic reports & dashboards",
+      " Email support",
+      " 5 GB secure cloud storage",
+      " Mobile app access"
+
     ],
+    button:"Start Free Trial",
     popular: false
   },
   {
     name: "Professional",
     price: "899 BDT",
     period: "/month",
-    description: "Ideal for growing businesses",
+    description: "Ideal for growing teams managing multiple clients and projects.",
     features: [
-      "Up to 25 users",
-      "Unlimited leads",
-      "Advanced analytics",
-      "Priority support",
-      "50 GB storage",
-      "API access",
-      "Custom integrations",
-      "Team collaboration tools"
+      " Up to 8 users",
+      " Unlimited leads",
+      " Advanced analytics dashboard",
+      " Priority support",
+      " 25 GB secure cloud storage",
+      " API & integrations",
+      " Team collaboration tools"
     ],
+    button:"Upgrade to Professional",
     popular: true
   },
   {
     name: "Enterprise",
-    price: "1,299 BDT",
+    price: "1,299 BDT ",
     period: "/month",
-    description: "For large organizations with advanced needs",
+    description: "For agencies & large organizations needing flexibility and control.",
     features: [
-      "Unlimited users",
-      "Unlimited everything",
-      "White-label options",
-      "Dedicated support",
-      "Unlimited storage",
-      "Advanced security",
-      "Custom development",
-      "SLA guarantee",
-      "On-premise deployment"
+      " Up to 12 users (expandable)",
+      " Custom modules & integrations",
+      " White-label branding",
+      " Dedicated account manager",
+      " Unlimited storage",
+      " Advanced security setup",
+      " On-premise deployment option"
     ],
+    button:"Request Custom Demo",
     upcoming: true
   }
 ];
@@ -122,7 +123,7 @@ const PricingSection = () => {
                 size="lg"
                 onClick={() => window.open('https://easytechsolutions.xyz/easy_data/easy_lead_management/', '_blank')}
               >
-                Start Free Trial
+                {plan.button}
               </Button>
             </div>
           ))}
